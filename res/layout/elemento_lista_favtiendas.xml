@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:listPreferredItemHeightLarge"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:gravity="center" >
+    
+   <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        
+        <TextView
+	        android:id="@+id/text_tienda_favorita"
+	        style="?android:textAppearanceLarge"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+        
+    <!-- A button that, when pressed, will show the products of this shop. -->
+    <ImageButton 
+        android:id="@+id/button_productos_fav"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/carrito_only_noshadow"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/action_ver_fav"/>
+    
+    <!-- A button that, when pressed, will delete this list item row from its container. -->
+    <ImageButton 
+        android:id="@+id/button_borrar_fav"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_list_remove"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/action_cancel_fav"/>
+
+</LinearLayout>
+

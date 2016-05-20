@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:listPreferredItemHeightLarge"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:gravity="center" >
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+        
+        <TextView
+	        android:id="@+id/text_producto_comprado"
+	        style="?android:textAppearanceLarge"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+        
+        <TextView 
+            android:id="@+id/text_estado_comprado"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+        
+    <TextView 
+        android:id="@+id/text_fecha_comprado"
+        style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    
+    <!-- A button that, when pressed, will delete this list item row from its container. -->
+    <ImageButton 
+        android:id="@+id/button_cancel_compra"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_list_remove"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/action_cancel_compra"/>
+
+</LinearLayout>

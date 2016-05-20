@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nosa Tenda</string>
+    <string name="escaparate_activity">Escaparate</string>
+    <string name="producto_detail_activity">Detalles del producto</string>
+    <string name="reserva_activity">Reservar</string>
+    <string name="compra_activity">Comprar</string>
+    <string name="list_reservas_activity">Lista de reservas</string>
+    <string name="reserva_detail_activity">Detalles de la reserva</string>
+    <string name="list_compras_activity">Lista de compras</string>
+    <string name="compra_detail_activity">Detalles de la compra</string>
+    <string name="tienda_detail_activity">Tienda</string>
+    <string name="map_activity">Localización de la tienda</string>
+    <string name="tiendas_cercanas_activity">Tiendas cercanas</string>
+    <string name="list_favTiendas_activity">Tiendas favoritas</string>
+    
+    
+    <string name="login">Login</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="action_settings">Settings</string>
+    
+    <string name="ciudad">Buscar productos por ciudad</string>
+    
+    <string name ="nombre_producto">El Viejo Pancho</string>
+    <string name ="descripcion_producto">No más perros, lo prometo. Que aunque sean pequeños y un poco adorables, ya se están poniendo cansinos. Barbaridad de texto para ver como se comporta el campo de descripción en la Activity</string>
+    <string name ="nombre_tienda">El Rincón de José</string>
+    <string name ="precio">7.99</string>
+    <string name="descripcion">Descripción</string>
+    <string name="tienda">Tienda</string>
+    <string name="btn_reservar">Reservar...</string>
+    <string name="btn_comprar">Comprar...</string>
+    <string name="reservar_unid">Reservar</string>
+    <string name="comprar_unid">Comprar</string>
+    <string name="unidades">unidades</string>
+    <string name="unidad">unidad</string>
+    <string name="anombrede">A nombre de</string>
+    <string name="anombrede_hint">Introduzca su nombre completo aquí</string>
+    <string name="unid_hint">0</string>
+    <string name="btn_confirmar_reserva">Confirmar reserva</string>
+    <string name="btn_confirmar_compra">Iniciar compra</string>
+    <string name="password">Contraseña</string>
+    <string name="passwordHint">************</string>
+    <string name="confirmPassword">Confirmar contraseña</string>
+    <string name="correoelectronico">Correo electrónico</string>
+    <string name="correoelectronicoHint">example@correo.es</string>
+    <string name="loginAlready">Tengo cuenta</string>
+    <string name="newCliente">Crear cuenta nueva</string>
+    <string name="emptyListaReservas">No hay reservas</string>
+    <string name="action_cancel_reserva">Cancela reserva</string>
+    <string name="action_cancel_compra">Cancela compra</string>
+    <string name="action_cancel_fav">Borrar tienda de favoritos</string>
+    <string name="action_ver_fav">Ver productos de esta tienda favorita</string>
+    <string name="emptyListaCompras">No hay compras</string>
+    <string name="reserva_fecha">Fecha de reserva</string>
+    <string name="compra_fecha">Fecha de compra</string>
+    <string name="n_unidades">Nº de unidades</string>
+    <string name="precio_unidad">Precio/unidad</string>
+    <string name="total">Total</string>
+    <string name="only">(sólo quedan </string>
+    <string name="nothing">(no quedan unidades)</string>
+    <string name="only_singular">(sólo queda </string>
+    <string name="metodo_pago">Método de pago</string>
+    <string name="estado">Estado</string>
+    <string name="web">Página web</string>
+    <string name="phone">Teléfono</string>
+    <string name="direccion">Dirección</string>
+    <string name="sendmail">Enviar correo electrónico...</string>
+    <string name="lugar">Lugar de recogida</string>
+    <string name="btn_locate_tienda">Ver en el mapa</string>
+    <string name="btn_satellite_map">Satélite</string>
+    <string name="btn_normal_map">Normal</string>
+    <string name="emptyListaTiendasFavoritas">No hay tiendas favoritas</string>
+    <string name="opt_ultimasunidades">ÚLTIMAS UNIDADES</string>
+    <string name="opt_agotado">AGOTADO</string>
+    
+    <!-- URLs -->
+    <!-- Emulator -->
+    <!-- <string name="baseURL">http://10.0.2.2:8080</string>  -->
+    <!-- Phone -->
+    <string name="baseURL">http://localhost:8080</string>
+    
+    <string name="URL_LOGIN">/NosaTenda-webservice/rest/service/LoginJSONServlet</string>
+    <string name="URL_GETPRODUCTOS">/NosaTenda-webservice/rest/service/GetProductosServlet</string>
+    <string name="URL_GETPRODUCTOSJSON">/NosaTenda-webservice/rest/service/GetProductosJSONServlet</string>
+    <string name="URL_GETPRODUCTOSENVENTAJSON">/NosaTenda-webservice/rest/service/GetProductosEnVentaJSONServlet</string>
+    <string name="URL_NEWCLIENT">/NosaTenda-webservice/rest/service/NewClienteJSONServlet</string>
+    <string name="URL_RESERVE">/NosaTenda-webservice/rest/service/ReserveJSONServlet</string>
+    <string name="URL_CLIENT_RESERVES">/NosaTenda-webservice/rest/service/GetReservasByIdJSONServlet</string>
+    <string name="URL_CANCEL_RESERVE">/NosaTenda-webservice/rest/service/CancelarReservaByIdJSONServlet</string>
+    <string name="URL_GETCLIENTE">/NosaTenda-webservice/rest/service/GetClienteJSONServlet</string>
+    <string name="URL_CONFIRM_PAYMENT">/NosaTenda-webservice/rest/service/ConfirmPaymentJSONServlet</string>
+    <string name="URL_CHECK_STOCK">/NosaTenda-webservice/rest/service/GetStockJSONServlet</string>
+    <string name="URL_CLIENT_COMPRAS">/NosaTenda-webservice/rest/service/GetComprasByIdJSONServlet</string>
+    <string name="URL_GETLOCALIDADES">/NosaTenda-webservice/rest/service/GetLocalidadesJSONServlet</string>
+    <string name="URL_GETPRODUCTOS_LOCALIDAD">/NosaTenda-webservice/rest/service/GetProductosByLocalidadJSONServlet</string>
+    <string name="URL_GETCATEGORIAS">/NosaTenda-webservice/rest/service/GetCategoriasJSONServlet</string>
+    <string name="URL_GETPRODUCTOS_CATEGORIA">/NosaTenda-webservice/rest/service/GetProductosByCategoriaJSONServlet</string>
+    <string name="URL_GETPRODUCTOS_CATEGORIATIENDA">/NosaTenda-webservice/rest/service/GetProductosByCategoriaTiendaJSONServlet</string>
+    <string name="URL_GETTIENDAS_CERCANAS">/NosaTenda-webservice/rest/service/GetTiendasCercanasJSONServlet</string>
+    <string name="URL_ES_FAVORITA_TIENDA">/NosaTenda-webservice/rest/service/IsFavTiendaJSONServlet</string>
+    <string name="URL_FAV_TIENDA">/NosaTenda-webservice/rest/service/FavTiendaJSONServlet</string>
+    <string name="URL_UNFAV_TIENDA">/NosaTenda-webservice/rest/service/UnfavTiendaJSONServlet</string>
+    <string name="URL_GETTIENDAS_FAVORITAS">/NosaTenda-webservice/rest/service/GetTiendasFavoritasJSONServlet</string>
+    <string name="URL_GETPRODUCTOS_TIENDA">/NosaTenda-webservice/rest/service/GetProductosByTiendaJSONServlet</string>
+    <string name="URL_GETPRODUCTOS_TIENDASFAV">/NosaTenda-webservice/rest/service/GetProductosByTiendasFavoritasJSONServlet</string>
+    
+    <!-- Errors -->
+    <string name="ERROR">Ocurrió un error</string>
+    <string name="ERROR_OCCURRED">Ocurrió un error: </string>
+    <string name="ERROR_UNIDADES">introduzca un número de unidades válido</string>
+    <string name="ERROR_NOMBRE">introduzca un nombre</string>
+    <string name="ERROR_CORREO">introduzca un correo</string>
+    <string name="ERROR_CORREO_DUPLICATE">el correo introducido ya está en uso en nuestra base de datos, por favor introduzca otro diferente</string>
+    <string name="ERROR_PASSWORD">introduzca la contraseña</string>
+    <string name="ERROR_PASSWORD_TOO_LONG">la contraseña no puede tener más de %1$s caracteres</string>
+    <string name="ERROR_PASSWORDS_NOT_EQUAL">las dos contraseñas deben coincidir</string>
+    <string name="ERROR_PASSWORD_WRONG">la contraseña es incorrecta</string>
+    <string name="ERROR_INTERNO">problema interno, vuelva a intentarlo</string>
+    <string name="ERROR_INTERNO_LOGIN">problema al hacer el Login, vuelva a intentarlo</string>
+    <string name="ERROR_INTERNO_RESERVA">problema al hacer la reserva, vuelva a intentarlo</string>
+    <string name="ERROR_INTERNO_COMPRA">problema al hacer la compra, vuelva a intentarlo</string>
+    <string name="ERROR_INTERNO_NEWCLIENTE">problema al crear una nueva cuenta, vuelva a intentarlo</string>
+    <string name="ERROR_INTERNO_CANCELAR_RESERVA">problema al cancelar la reserva, vuelva a intentarlo</string>
+    <string name="ERROR_RESERVA_CANCELADA">no se puede cancelar, la reserva ya está cancelada</string>
+    <string name="ERROR_RESERVA_ENTREGADA">no se puede cancelar, la reserva ya ha sido entregada</string>
+    <string name="ERROR_COMPRA_NO_CONFIRMADA">no se ha podido verificar la compra</string>
+    <string name="ERROR_UNAVAILABLE_STOCK">no se ha podido verificar el stock con el servidor, vuelva a intentarlo</string>
+    <string name="ERROR_INSUFFICIENT_STOCK">no hay suficiente stock en este momento</string>
+    <string name="ERROR_INSUFFICIENT_STOCK_NOW">¡nos hemos quedado sin stock!</string>
+    <string name="ERROR_NO_LOCATION_DETECTED">no se ha conseguido información de posicionamiento, vuelva a intentarlo</string>
+    <string name="ERROR_CONNECTION_FAILED">no ha sido posible conectar con el servidor, vuelva a intentarlo</string>
+    
+    <!-- Success -->
+    <string name="SUCCESS">Operación realizada con éxito</string>
+    <string name="SUCCESS_RESERVA">- reserva número </string>
+    <string name="SUCCESS_LOGIN">- login de cliente con id </string>
+    <string name="SUCCESS_CANCELAR_RESERVA">- cancelada reserva con id </string>
+    <string name="SUCCESS_COMPRA">- compra finalizada</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_ciudad">Escoge una ciudad:</string>
+    <string name="dialog_positive">Sí</string>
+    <string name="dialog_negative">No</string>
+    <string name="dialog_cancel_reserva">¿Seguro que desea cancelar la reserva?</string>
+    <string name="dialog_categoria">Escoge una o varias categorías:</string>
+    <string name="dialog_categoria_tienda">Escoge una categoría de tienda:</string>
+    
+    <!-- Navigation Drawer -->
+    <string-array name="logged_array">
+        <item>@string/menu_escaparate</item>
+        <item>@string/menu_reservas</item>
+        <item>@string/menu_compras</item>
+        <item></item>
+        <item>@string/menu_filtrar</item>
+        <item>@string/menu_fProductosCiudad</item>
+        <item>@string/menu_fProductosCategoria</item>
+        <item>@string/menu_fProductosCategoriaTiendas</item>
+        <item>@string/menu_fProductosTiendasFavoritas</item>
+        <item></item>
+        <item>@string/menu_tiendasCercanas</item>
+        <item>@string/menu_tiendasFavoritas</item>
+    </string-array>
+    <string-array name="nologged_array">
+        <item>@string/menu_escaparate</item>
+        <item></item>
+        <item>@string/menu_filtrar</item>
+        <item>@string/menu_fProductosCiudad</item>
+        <item>@string/menu_fProductosCategoria</item>
+        <item>@string/menu_fProductosCategoriaTiendas</item>
+        <item></item>
+        <item>@string/menu_tiendasCercanas</item>
+    </string-array>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_login">Log in</string>
+    <string name="menu_account">Mi cuenta</string>
+    <string name="menu_create_account">Crear nueva cuenta</string>
+    <string name="menu_escaparate">Escaparate</string>
+    <string name="menu_reservas">Reservas</string>
+    <string name="menu_compras">Compras</string>
+    <string name="menu_filtrar">Filtrar productos:</string>
+    <string name="menu_fProductosCiudad">Por ciudad</string>
+    <string name="menu_fProductosCategoria">Por categoría</string>
+    <string name="menu_fProductosCategoriaTiendas">Por categoría de tienda</string>
+    <string name="menu_fProductosTiendasFavoritas">Sólo de tiendas favoritas</string>
+    <string name="menu_tiendasCercanas">Tiendas cercanas</string>
+    <string name="menu_tiendasFavoritas">Tiendas favoritas</string>
+
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="navigation_more">More navigation options</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
+    <!-- Session id -->
+    <string name="idSession">es.udc.jcastedo.NosaTenda.idSession</string>
+    
+    <!-- JSON tags -->
+    <string name="clienteId">clienteId</string>
+    <string name="clienteCorreo">clienteCorreo</string>
+    <string name="reservaId">reservaId</string>
+    <string name="correoTag">correo</string>
+    <string name="passwordTag">password</string>
+    <string name="nombreTag">nombre</string>
+    <string name="state_response">state</string>
+    <string name="state_confirm">confirmada</string>
+    <string name="state_denay">denegada</string>
+    
+    <!-- Rerserva state -->
+    <string name="RESERVA_STATE_CANCELADA">CANCELADA</string>
+    <string name="RESERVA_STATE_PENDIENTE">PENDIENTE</string>
+    <string name="RESERVA_STATE_ENTREGADA">ENTREGADA</string>
+    
+    <!-- Paypal -->
+    <string name="CONFIG_CLIENT_ID">AflmuYXeePCTrLTN6Nv40PHDVrQIhQHGMSl01Dz6EGPD5bjovbdYYD39I-066t-9bbFslE91acRNankD</string>
+    <string name="ENVIRONMENT_SANDBOX">sandbox</string>
+    <string name="ENVIRONMENT_PRODUCTION">live</string>
+    <string name="ENVIRONMENT_NO_NETWORK">mock</string>
+    <string name="currency">EUR</string>
+    <string name="recogida_tienda">0</string>
+    <string name="tax">0</string>
+    
+    <!-- Logs -->
+    <string name="FROM_SERVER">RECEIVED FROM SERVER</string>
+    <string name="TO_SERVER">SENT TO SERVER</string>
+    <string name="TO_SERVER_GET">SENT TO SERVER, GET PETITION</string>
+    <string name="FROM_PAYPAL">RECEIVED FROM PAYPAL</string>
+    
+    <!-- Distance menu -->
+    <string-array name="distance_array">
+        <item>@string/distance_200</item>
+        <item>@string/distance_500</item>
+        <item>@string/distance_1000</item>
+        <item>@string/distance_2000</item>
+        <item>@string/distance_5000</item>
+    </string-array>
+    <string name="distance_title">Ver tiendas a menos de:</string>
+    <string name="distance_200">200 m</string>
+    <string name="distance_500">500 m</string>
+    <string name="distance_1000">1 km</string>
+    <string name="distance_2000">2 km</string>
+    <string name="distance_5000">5 km</string>
+</resources>

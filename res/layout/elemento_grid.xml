@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    
+   <es.udc.jcastedo.NosaTenda.SquareImageView
+	    android:id="@+id/picture"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:scaleType="centerCrop"
+   />
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#00000000" >
+
+        <TextView
+            android:id="@+id/opt_agotado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+   </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#55000000"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           	android:gravity="left|center"
+            android:textColor="@android:color/white" />
+        
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="right|center"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    
+
+</FrameLayout>

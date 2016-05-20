@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="MAX_CHARACTERS">12</integer>
+	<integer name="MAX_UNITS">100</integer>
+	<integer name="MIN_UNITS">1</integer>
+	<integer name="MIN_STOCK">10</integer>
+	<integer name="COLUMNS_ESCAPARATE">2</integer>
+</resources>

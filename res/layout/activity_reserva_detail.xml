@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    
+	    <LinearLayout 
+	        android:id="@+id/container_reserva_detail"
+	        android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical"
+		    android:visibility="visible"
+		    android:padding="15dp" >
+		    
+	        <com.android.volley.toolbox.NetworkImageView
+	            android:id="@+id/imageView_detail_reserva"
+	            android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:adjustViewBounds="true"
+		        android:scaleType="fitCenter"
+		        android:minWidth="100dp"
+		        android:maxHeight="200dp"
+		        android:minHeight="200dp"
+		        android:paddingBottom="5dp" />
+	        
+	        <TextView
+		        android:id="@+id/textView_detail_nombre_producto_reserva"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dp"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+	        
+	        <LinearLayout
+	            android:layout_width="match_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:layout_weight="0.2"
+		   	    android:orientation="horizontal"
+		   	    android:paddingTop="5dp"
+		   	    android:paddingBottom="5dp" >
+		        <TextView
+		            android:id="@+id/textView_detail_fecha_reserva"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingStart="5dp"
+		            android:paddingEnd="5dp"
+		            android:paddingRight="5dp"
+		            android:text="@string/reserva_fecha"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		        
+		        <TextView 
+		            android:id="@+id/textView_detail_fecha_reserva_data"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:layout_weight="0.2"
+		   	    android:orientation="horizontal"
+		   	    android:paddingTop="5dp"
+		   	    android:paddingBottom="5dp" >
+	
+		        <TextView
+		            android:id="@+id/textView_detail_unidades_reserva"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingEnd="5dp"
+		            android:paddingRight="5dp"
+		            android:paddingStart="5dp"
+		            android:text="@string/n_unidades"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		        
+		        <TextView 
+		            android:id="@+id/textView_detail_unidades_reserva_data"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:layout_weight="0.2"
+		   	    android:orientation="horizontal"
+		   	    android:paddingTop="5dp"
+		   	    android:paddingBottom="5dp" >
+	
+		        <TextView
+		            android:id="@+id/textView_detail_punidad_reserva"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingEnd="5dp"
+		            android:paddingRight="5dp"
+		            android:paddingStart="5dp"
+		            android:text="@string/precio_unidad"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		        
+		        <TextView 
+		            android:id="@+id/textView_detail_punidad_reserva_data"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:layout_weight="0.2"
+		   	    android:orientation="horizontal"
+		   	    android:paddingTop="5dp"
+		   	    android:paddingBottom="5dp" >
+	
+		        <TextView
+		            android:id="@+id/textView_detail_ptotal_reserva"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingEnd="5dp"
+		            android:paddingRight="5dp"
+		            android:paddingStart="5dp"
+		            android:text="@string/total"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+		        
+		        <TextView 
+		            android:id="@+id/textView_detail_ptotal_reserva_data"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        </LinearLayout>
+	        
+	        <LinearLayout 
+	            android:layout_width="match_parent"
+		   	    android:layout_height="wrap_content"
+		   	    android:layout_weight="0.2"
+		   	    android:orientation="vertical"
+		   	    android:gravity="center"
+		   	    android:paddingTop="5dp"
+		   	    android:paddingBottom="5dp" >
+		        
+	            <TextView
+		            android:id="@+id/textView_detail_lugar_reserva"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/lugar"
+		            android:textAppearance="?android:attr/textAppearanceSmall" />
+	            <TextView 
+		            android:id="@+id/textView_detail_nombre_tienda_reserva_data"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+	            <TextView 
+		            android:id="@+id/textView_detail_direccion_tienda_reserva_data"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textAppearance="?android:attr/textAppearanceMedium" />
+		   	    
+	            
+	        </LinearLayout>
+	            
+	    </LinearLayout>
+	
+	</FrameLayout>
+	
+	<!-- android:layout_gravity="start" tells DrawerLayout to treat
+         this as a sliding drawer on the left side for left-to-right
+         languages and on the right side for right-to-left languages.
+         The drawer is given a fixed width in dp and extends the full height of
+         the container. A solid background is used for contrast
+         with the content view. -->
+    <ListView
+        android:id="@+id/left_drawer"
+        style="@style/DrawerLayoutTheme"/>
+</android.support.v4.widget.DrawerLayout>

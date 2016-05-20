@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="escaparate_activity">Escaparate</string>
+    <string name="producto_detail_activity">Detalles do produto</string>
+    <string name="reserva_activity">Reservar</string>
+    <string name="compra_activity">Comprar</string>
+    <string name="list_reservas_activity">Lista de reservas</string>
+    <string name="reserva_detail_activity">Detalles da reserva</string>
+    <string name="list_compras_activity">Lista de compras</string>
+    <string name="compra_detail_activity">Detalles da compra</string>
+    <string name="tienda_detail_activity">Tenda</string>
+    <string name="map_activity">Localización da tenda</string>
+    <string name="tiendas_cercanas_activity">Tendas cercanas</string>
+    <string name="list_favTiendas_activity">Tendas favoritas</string>
+    
+    
+    <string name="login">Login</string>
+    
+    <string name="action_settings">Settings</string>
+    
+    <string name="ciudad">Buscar produtos por cidade</string>
+    
+    <string name="descripcion">Descrición</string>
+    <string name="tienda">Tenda</string>
+    <string name="btn_reservar">Reservar...</string>
+    <string name="btn_comprar">Comprar...</string>
+    <string name="reservar_unid">Reservar</string>
+    <string name="comprar_unid">Comprar</string>
+    <string name="unidades">unidades</string>
+    <string name="unidad">unidade</string>
+    <string name="anombrede">A nome de</string>
+    <string name="anombrede_hint">Introduza o seu nome completo aquí</string>
+    <string name="unid_hint">0</string>
+    <string name="btn_confirmar_reserva">Confirmar reserva</string>
+    <string name="btn_confirmar_compra">Iniciar compra</string>
+    <string name="password">Contrasinal</string>
+    <string name="passwordHint">************</string>
+    <string name="confirmPassword">Confirmar contrasinal</string>
+    <string name="correoelectronico">Correo electrónico</string>
+    <string name="correoelectronicoHint">example@correo.es</string>
+    <string name="loginAlready">Teño conta</string>
+    <string name="newCliente">Crear conta nova</string>
+    <string name="emptyListaReservas">Non hai reservas</string>
+    <string name="action_cancel_reserva">Cancela reserva</string>
+    <string name="action_cancel_compra">Cancela compra</string>
+    <string name="action_cancel_fav">Borrar tenda de favoritos</string>
+    <string name="action_ver_fav">Ver produtos desta tenda favorita</string>
+    <string name="emptyListaCompras">Non hai compras</string>
+    <string name="reserva_fecha">Data de reserva</string>
+    <string name="compra_fecha">Data de compra</string>
+    <string name="n_unidades">Nº de unidades</string>
+    <string name="precio_unidad">Prezo/unidade</string>
+    <string name="total">Total</string>
+    <string name="only">(só quedan </string>
+    <string name="nothing">(non quedan unidades)</string>
+    <string name="only_singular">(só queda </string>
+    <string name="metodo_pago">Método de pago</string>
+    <string name="estado">Estado</string>
+    <string name="web">Páxina web</string>
+    <string name="phone">Teléfono</string>
+    <string name="direccion">Dirección</string>
+    <string name="sendmail">Enviar correo electrónico...</string>
+    <string name="lugar">Lugar de recollida</string>
+    <string name="btn_locate_tienda">Ver no mapa</string>
+    <string name="btn_satellite_map">Satélite</string>
+    <string name="btn_normal_map">Normal</string>
+    <string name="emptyListaTiendasFavoritas">Non hai tendas favoritas</string>
+    <string name="opt_ultimasunidades">ÚLTIMAS UNIDADES</string>
+    <string name="opt_agotado">ESGOTADO</string>
+    
+    <!-- Errors -->
+    <string name="ERROR">Ocurreu un erro</string>
+    <string name="ERROR_OCCURRED">Ocurreu un erro: </string>
+    <string name="ERROR_UNIDADES">introduza un número de unidades válido</string>
+    <string name="ERROR_NOMBRE">introduza un nome</string>
+    <string name="ERROR_CORREO">introduza un correo</string>
+    <string name="ERROR_CORREO_DUPLICATE">o correo introducido xa está en uso na nosa base de datos, por favor introduza outro diferente</string>
+    <string name="ERROR_PASSWORD">introduza o contrasinal</string>
+    <string name="ERROR_PASSWORD_TOO_LONG">o contrasinal non pode ter máis de %1$s caracteres</string>
+    <string name="ERROR_PASSWORDS_NOT_EQUAL">os dous contrasinais deben coincidir</string>
+    <string name="ERROR_PASSWORD_WRONG">o contrasinal é incorrecto</string>
+    <string name="ERROR_INTERNO">problema interno, volva a intentalo</string>
+    <string name="ERROR_INTERNO_LOGIN">problema ao facer o Login, volva a intentalo</string>
+    <string name="ERROR_INTERNO_RESERVA">problema ao facer a reserva, volva a intentalo</string>
+    <string name="ERROR_INTERNO_COMPRA">problema ao facer a compra, volva a intentalo</string>
+    <string name="ERROR_INTERNO_NEWCLIENTE">problema ao crear unha nova conta, volva a intentalo</string>
+    <string name="ERROR_INTERNO_CANCELAR_RESERVA">problema ao cancelar a reserva, volva a intentalo</string>
+    <string name="ERROR_RESERVA_CANCELADA">non se pode cancelar, a reserva xa se cancelou</string>
+    <string name="ERROR_RESERVA_ENTREGADA">non se pode cancelar, a reserva xa se entregou</string>
+    <string name="ERROR_COMPRA_NO_CONFIRMADA">non se pode verificar a compra</string>
+    <string name="ERROR_UNAVAILABLE_STOCK">non se pode verificar o stock co servidor, volva a intentalo</string>
+    <string name="ERROR_INSUFFICIENT_STOCK">non hai suficiente stock neste momento</string>
+    <string name="ERROR_INSUFFICIENT_STOCK_NOW">¡non temos máis stock!</string>
+    <string name="ERROR_NO_LOCATION_DETECTED">non se conseguiu información de posicionamento, volva a intentalo</string>
+    <string name="ERROR_CONNECTION_FAILED">non foi posible conectar co servidor, volva a intentalo</string>
+    
+    <!-- Success -->
+    <string name="SUCCESS">Operación realizada con éxito</string>
+    <string name="SUCCESS_RESERVA">- reserva número </string>
+    <string name="SUCCESS_LOGIN">- login de cliente con id </string>
+    <string name="SUCCESS_CANCELAR_RESERVA">- cancelada reserva con id </string>
+    <string name="SUCCESS_COMPRA">- compra finalizada</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_ciudad">Escolla unha cidade:</string>
+    <string name="dialog_positive">Si</string>
+    <string name="dialog_negative">Non</string>
+    <string name="dialog_cancel_reserva">¿Seguro que desexa cancelar a reserva?</string>
+    <string name="dialog_categoria">Escolla unha ou varias categorías:</string>
+    <string name="dialog_categoria_tienda">Escolla unha categoría de tenda:</string>
+    
+    <string name="menu_logout">Log out</string>
+    <string name="menu_login">Log in</string>
+    <string name="menu_account">Miña conta</string>
+    <string name="menu_create_account">Crear nova conta</string>
+    <string name="menu_escaparate">Escaparate</string>
+    <string name="menu_reservas">Reservas</string>
+    <string name="menu_compras">Compras</string>
+    <string name="menu_filtrar">Filtrar produtos:</string>
+    <string name="menu_fProductosCiudad">Por cidade</string>
+    <string name="menu_fProductosCategoria">Por categoría</string>
+    <string name="menu_fProductosCategoriaTiendas">Por categoría de tenda</string>
+    <string name="menu_fProductosTiendasFavoritas">Só de tendas favoritas</string>
+    <string name="menu_tiendasCercanas">Tendas cercanas</string>
+    <string name="menu_tiendasFavoritas">Tendas favoritas</string>
+
+    <!-- Rerserva state -->
+    <string name="RESERVA_STATE_CANCELADA">CANCELADA</string>
+    <string name="RESERVA_STATE_PENDIENTE">PENDIENTE</string>
+    <string name="RESERVA_STATE_ENTREGADA">ENTREGADA</string>
+    
+    <!-- Distance menu -->
+    <string name="distance_title">Ver tendas a menos de:</string>
+</resources>
