@@ -123,7 +123,7 @@ public class Login_activity extends BaseActivity {
 					editor.putString(getString(R.string.passwordTag), password_parametro);
 					editor.commit();
 					
-					ActivityDialogs.showSuccessDialogWithReturn(Login_activity.this, getString(R.string.SUCCESS_LOGIN) + " " + clienteIdResponse)
+					ActivityDialogs.showSuccessDialogWithReturn(Login_activity.this, "")
 						.setOnCancelListener(new OnCancelListener() {
 							
 							@Override

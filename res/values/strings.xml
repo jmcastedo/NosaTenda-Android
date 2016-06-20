@@ -46,7 +46,7 @@
     <string name="correoelectronico">Correo electrónico</string>
     <string name="correoelectronicoHint">example@correo.es</string>
     <string name="loginAlready">Tengo cuenta</string>
-    <string name="newCliente">Crear cuenta nueva</string>
+    <string name="newCliente">Crear cuenta</string>
     <string name="emptyListaReservas">No hay reservas</string>
     <string name="action_cancel_reserva">Cancela reserva</string>
     <string name="action_cancel_compra">Cancela compra</string>
