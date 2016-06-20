@@ -450,7 +450,7 @@ public class Reserva_activity extends BaseActivity {
 					Log.i(TAG, "Petición createNewClient exitosa");
 					
 					// TODO probar que funciona
-					ActivityDialogs.showSuccessDialogWithReturn(Reserva_activity.this, getString(R.string.SUCCESS_RESERVA) + " " + reservaId)
+					ActivityDialogs.showSuccessDialogWithReturn(Reserva_activity.this, "")
 						.setOnCancelListener(new OnCancelListener() {
 							
 							@Override
