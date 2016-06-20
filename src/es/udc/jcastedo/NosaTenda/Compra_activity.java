@@ -517,6 +517,7 @@ public class Compra_activity extends BaseActivity {
 		PayPalConfiguration config = new PayPalConfiguration()
 				.environment(getString(R.string.ENVIRONMENT_SANDBOX))
 				.defaultUserEmail(correoCliente)
+				.acceptCreditCards(true)
 	            .clientId(getString(R.string.CONFIG_CLIENT_ID));
 		
 		Intent intentService = new Intent(this, PayPalService.class);
